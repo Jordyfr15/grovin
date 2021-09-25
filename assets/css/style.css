@@ -663,7 +663,7 @@ section {
 --------------------------------------------------------------*/
 #heroletter {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background: url("../img/Xcaret/interactivo-rayas-02.jpg") top right no-repeat;
   background-size: cover;
   background-attachment: fixed;
