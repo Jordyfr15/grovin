@@ -82,6 +82,11 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 60px;
 }
 
+.euflag img{
+  width: 35px;
+/*   margin-left: 2em;
+ */}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -664,7 +669,7 @@ section {
 #heroletter {
   width: 100%;
   height: 70vh;
-  background: url("../img/Xcaret/interactivo-rayas-02.jpg") top right no-repeat;
+  background: url("../img/Xcaret/interactivo-rayas-02.jpg") bottom left no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -676,7 +681,7 @@ section {
 }
 #heroletter:before {
   content: "";
-  background: rgba(0, 0, 0, 0.19);
+  background: rgba(0, 0, 0, 0.29);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -690,6 +695,10 @@ section {
   line-height: 56px;
   color: #00944c;
 }
+
+#heroletter .container{
+  z-index: 1;
+}
 #heroletter p {
   color: #fff;
   margin: 15px 0 0 0;
@@ -697,9 +706,10 @@ section {
   font-family: "Poppins", sans-serif;
 }
 #heroletter p span {
-  color: #00944c;
+  color:#fff;
   letter-spacing: 1px;
   font-size: 35px;
+
 }
 #heroletter .social-links {
   margin-top: 30px;

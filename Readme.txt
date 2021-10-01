@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Groovin
-Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template Name: Xcaret V.1
+Template URL: https://Xcaret.com
+Author: Jordy
+License: Xcaret
