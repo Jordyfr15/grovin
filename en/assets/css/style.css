@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&family=Satisfy&family=Signika&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -24,7 +27,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Signika', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -371,19 +374,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h2 {
   color: #fff;
-  margin-bottom: 30px;
-  font-size: 48px;
+  margin-top: 70px;
+  font-size: 60px;
   font-weight: 700;
+  font-family: 'Satisfy', cursive;
 }
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 28px;
+    font-size: 55px;
   }
 }
 #hero p {
   width: 80%;
-  margin: 0 auto 30px auto;
+  margin: 100px auto 0 auto;
   color: #fff;
+  font-size: 65px;
+  font-family: 'Satisfy', cursive;
+
 }
 @media (min-width: 1024px) {
   #hero p {
@@ -446,34 +453,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #fff;
   color: #00944c;
-}
-
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-}
-
-.section-bg {
-  background-color: #f1f1f1;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  color: #00944c;
-}
-.section-title p {
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -562,6 +541,12 @@ section {
   position: relative;
   z-index: 10;
 }
+
+#facts .container h2{
+  font-size: 35px;
+  font-weight: 700;
+
+}
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -607,6 +592,11 @@ section {
 #about .container {
   position: relative;
   z-index: 10;
+}
+
+#about .container h2{
+  color: #fff;
+  font-size: 35px;
 }
 #about .about-col {
   background: #fff;
@@ -715,7 +705,6 @@ section {
   color:#fff;
   letter-spacing: 1px;
   font-size: 35px;
-
 }
 #heroletter .social-links {
   margin-top: 30px;
@@ -754,6 +743,12 @@ section {
   padding: 15px 0;
   text-align: center;
 }
+
+.clients h1{
+  font-size: 35px;
+  font-weight: 700;
+}
+
 .clients img {
   max-width: 70%;
   transition: all 0.4s ease-in-out;
@@ -769,6 +764,34 @@ section {
   .clients img {
     max-width: 80%;
   }
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: #f1f1f1;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #00944c;
+}
+.section-title p {
+  margin-bottom: 0;
 }
 
 
@@ -937,7 +960,7 @@ section {
   display: inline-block;
   padding: 8px 15px 10px 15px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
   color: #444444;
@@ -1477,7 +1500,7 @@ section {
 #footer .footer-top {
   background: #1d1d1d;
   border-bottom: 1px solid #2f2f2f;
-  padding: 60px 0 30px 0;
+  padding: 50px 0 30px 0;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
@@ -1503,7 +1526,7 @@ section {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 10px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1592,8 +1615,6 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
-
 
 .page-home {
   background-position: center center;
