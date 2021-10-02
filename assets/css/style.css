@@ -343,6 +343,39 @@ h1, h2, h3, h4, h5, h6 {
     height: 150vh;
   }
 }
+
+#hero .social-links{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 30px;
+  left: 45px;
+  bottom: 160px;
+  letter-spacing: 15px;
+  color: white;
+}
+
+#hero .social-links i{
+  color: #fff;
+  margin-right: 5px;
+}
+
+#hero .social-links i:hover{
+  color: #00944c;
+}
+
+@media (max-height: 700px) {
+  #hero .social-links{
+    position: relative;
+    display: flex;
+    font-size:25px;
+    left: 40px;
+    bottom: 140px;
+    letter-spacing: 15px;
+    color: white;
+  }
+}
+
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   position: absolute;
   top: 0;
@@ -726,7 +759,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #heroletter h1 {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 36px;
   }
   #heroletter p {
@@ -1520,7 +1553,7 @@ section {
   color: #fff;
 }
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 22px;
   display: inline-block;
   background: #2a2a2a;
   color: #fff;
@@ -1529,8 +1562,8 @@ section {
   margin-right: 10px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
@@ -1591,7 +1624,7 @@ section {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
   color: #fff;
 }
 
