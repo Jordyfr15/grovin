@@ -366,11 +366,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-height: 700px) {
   #hero .social-links{
-    position: relative;
+    position: absolute;
     display: flex;
     font-size:25px;
     left: 40px;
-    bottom: 140px;
+    bottom: 150px;
     letter-spacing: 15px;
     color: white;
   }
