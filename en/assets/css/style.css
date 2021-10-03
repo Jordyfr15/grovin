@@ -366,11 +366,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-height: 700px) {
   #hero .social-links{
-    position: absolute;
+    position: relative;
     display: flex;
     font-size:25px;
     left: 40px;
-    bottom: 150px;
+    bottom: 140px;
     letter-spacing: 15px;
     color: white;
   }
@@ -408,13 +408,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #fff;
   margin-top: 70px;
-  font-size: 60px;
+  font-size: 85px;
   font-weight: 700;
   font-family: 'Satisfy', cursive;
 }
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 55px;
+    font-size: 60px;
   }
 }
 #hero p {
@@ -436,16 +436,16 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-fade .carousel-inner .carousel-item {
   transition-property: opacity;
 }
-#hero .carousel-fade .carousel-inner .carousel-item,
+/* #hero .carousel-fade .carousel-inner .carousel-item,
 #hero .carousel-fade .carousel-inner .active.carousel-item-start,
 #hero .carousel-fade .carousel-inner .active.carousel-item-end {
   opacity: .9;
-}
+} */
 #hero .carousel-fade .carousel-inner .active,
 #hero .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
 #hero .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
-  opacity: .9;
-  transition: 0.5s;
+/*   opacity: .9;
+ */  transition: 0.5s;
 }
 #hero .carousel-fade .carousel-inner .carousel-item-next,
 #hero .carousel-fade .carousel-inner .carousel-item-prev,
