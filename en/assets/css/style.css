@@ -1,9 +1,3 @@
-/**
-* Template Name: Groovin - v4.5.0
-* Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -585,9 +579,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #facts .container h2{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
-
+  margin-bottom: 20px;
 }
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
@@ -638,7 +632,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #about .container h2{
   color: #fff;
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: 700;
 }
 #about .about-col {
   background: #fff;
@@ -680,7 +675,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #00944c;
 }
 #about .about-col h2 {
-  color: #000;
+  color: #444444;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
@@ -768,8 +763,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #heroletter h1 {
-    font-size: 40px;
-    line-height: 36px;
+    font-size: 50px;
+    line-height: 50px;
   }
   #heroletter p {
     margin-top: 10px;
@@ -1562,17 +1557,17 @@ section {
   color: #fff;
 }
 #footer .footer-top .social-links a {
-  font-size: 22px;
+  font-size: 26px;
   display: inline-block;
   background: #2a2a2a;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 14px 0;
   margin-right: 10px;
   border-radius: 50%;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
@@ -1658,11 +1653,8 @@ section {
 }
 
 h1 {
-	font-family: 'Arima Madurai', cursive;
-	color: black;
 	font-size: 4rem;
 	letter-spacing: -3px;
-	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
 	position: relative;
 	z-index: 3;
 }
@@ -1889,6 +1881,7 @@ h1 {
 
 .servicevalues-item:before {
   content: "";
+  height: 340px;
   position: absolute;
   top: 35px;
   left: 0px;
@@ -1897,6 +1890,12 @@ h1 {
   background: #00944c;
   opacity: 0;
   transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .servicevalues-item {
+    margin-bottom: 70px;
+  }
 }
 
 .servicevalues-item:hover:before {
@@ -1923,6 +1922,8 @@ h1 {
 
 .servicevalues-title {
   font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
   text-transform: uppercase;
   padding: 0 0 15px;
   margin: 0 0 20px;
@@ -1966,7 +1967,8 @@ h1 {
 
 .servicevalues-description {
   color: rgba(0, 0, 0, 0.8);
-  line-height: 24px;
+  line-height: 26px;
+  font-size: 19px;
   position: relative;
 }
 
@@ -1986,7 +1988,7 @@ h1 {
 
 .counter-item {
   position:relative;
-  height: 240px;
+  height: 250px;
   text-align:center;
   margin-bottom: 40px;
   background: #fff;
@@ -1997,6 +1999,7 @@ h1 {
   padding-bottom: 10px;
   margin-top: 20px;
   color: #444444;
+  font-size: 17px;
 }
 
 .counter-item h3 {
@@ -2004,8 +2007,8 @@ text-align:center;
 margin-bottom:0px;
 margin-top: 30px;
 color:#444444;
-  text-transform: none;
-  font-size: 20px;
+text-transform: none;
+font-size: 23px;
 }
 
 .counter-item i {
@@ -2015,3 +2018,8 @@ font-size:40px;
   padding: 30px 70px;
 }
 
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 820px;
+  }
+}
