@@ -2018,8 +2018,8 @@ font-size:40px;
   padding: 30px 70px;
 }
 
-@media (min-width: 768px){
-.container, .container-md, .container-sm {
-    max-width: 820px;
-  }
-}
+/* @media (min-width: 768px ) and (max-width: 992px){
+  .container, .container-md, .container-sm {
+      max-width: 820px;
+    }
+  } */
